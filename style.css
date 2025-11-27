@@ -47,8 +47,9 @@ nav ul li a:hover {
 }
 
 .hero {
-    background: url('FullLogo_NoBuffer.jpg') center/cover no-repeat;
-    background-size: cover; /* asegura que cubra toda la sección */
+    background: url('FullLogo_NoBuffer.jpg') center no-repeat;
+    background-size: 95%; /* reduce un poco la imagen (aprox 2 cm en todos los bordes) */
+    background-position: center;
     color: black;
     text-align: center;
     min-height: 500px; /* fuerza altura mínima */
@@ -57,7 +58,6 @@ nav ul li a:hover {
     justify-content: center; /* centra verticalmente el texto */
     padding: 16px;
 }
-
 
 .hero h2 {
     font-size: 40px;

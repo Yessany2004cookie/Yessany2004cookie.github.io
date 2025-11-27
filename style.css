@@ -118,12 +118,6 @@ nav ul li a:hover {
     color: #ff6600;
 }
 
-/* Proyectos */
-#proyectos {
-    padding: 80px 20px;
-    text-align: center;
-}
-
 #proyectos h2 {
     font-size: 32px;
     color: #0a3d62;

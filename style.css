@@ -49,7 +49,7 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
     background: url('images/hero.jpg') center/cover no-repeat;
-    color: white;
+    color: black;
     text-align: center;
     padding: 150px 20px;
 }

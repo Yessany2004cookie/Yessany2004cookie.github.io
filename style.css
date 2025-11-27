@@ -55,7 +55,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center; /* centra verticalmente el texto */
-    padding: 20px;
+    padding: 16px;
 }
 
 

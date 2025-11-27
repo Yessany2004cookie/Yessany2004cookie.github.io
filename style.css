@@ -46,13 +46,18 @@ nav ul li a:hover {
     color: #ff6600;
 }
 
-/* Hero Section */
 .hero {
     background: url('FullLogo_NoBuffer.jpg') center/cover no-repeat;
+    background-size: cover; /* asegura que cubra toda la sección */
     color: black;
     text-align: center;
-    padding: 150px 20px;
+    min-height: 500px; /* fuerza altura mínima */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centra verticalmente el texto */
+    padding: 20px;
 }
+
 
 .hero h2 {
     font-size: 40px;

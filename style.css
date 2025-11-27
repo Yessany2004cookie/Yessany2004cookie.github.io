@@ -49,20 +49,23 @@ color: #ff6600;
 
 /* Hero Section */
 .hero {
-text-align: center;
-color: black;
-min-height: 500px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-padding: 16px;
+    text-align: center;
+    color: black;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* centra horizontalmente los elementos */
+    padding: 16px;
+    /* quitamos cualquier background anterior */
+    background: none;
 }
 
 .hero-img {
-width: calc(100% - 2cm); /* reduce 2 cm de todos los lados */
-max-width: 800px; /* evita que la imagen sea demasiado grande */
-height: auto; /* mantiene proporción */
-margin-bottom: 20px; /* separa la imagen del texto */
+    width: calc(100% - 2cm); /* reduce 2 cm de todos los lados */
+    max-width: 800px; /* evita que la imagen sea demasiado grande */
+    height: auto; /* mantiene proporción */
+    margin-bottom: 20px; /* separa la imagen del texto */
 }
 
 .hero h2 {
